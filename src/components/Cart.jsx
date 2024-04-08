@@ -84,7 +84,7 @@ const Cart = () => {
 
                                     </div> :
                                     <div className='flex flex-col justify-center text-cter gap-24 my-auto items-center'>
-                                        <p className="font-bold ml-auto my-6 text-red-500">El carrito esta vacio!</p>
+                                        <p className="font-bold mx-auto sm:text-xl text-sm ml-auto my-6 text-red-500">El carrito esta vacio!</p>
                                         <img src={carritoVacio} alt="carrito vacio imagen" className='w-40 sm:w-72 my-auto' />
                                     </div>
                                 }
